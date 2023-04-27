@@ -1,0 +1,23 @@
+.col-h {
+    min-height: 500px;
+}
+
+#container-lft {
+    min-height: 500px;
+}
+
+body {
+    padding: 5% 0 0 0;
+}
+
+#container-lft {
+    padding: 5%;
+}
+
+#input {
+    font-size: 4rem;
+}
+
+.tskLine {
+    text-decoration: line-through;
+}

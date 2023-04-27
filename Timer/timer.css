@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to top right, #e59761 0%, #ecca90 100%) 100% no-repeat;
+}
+
+.container {
+    height: 460px;
+    width: 220px;
+    margin: auto;
+    background-color: #3d2f27;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px 5px black;
+}
+
+#part-u {
+    height: 50%
+}
+
+#part-l {
+    padding: 0px 5px 20px 5px;
+    color: aliceblue;
+    height: 50%
+}
+
+#session {
+    height: 20%;
+    text-align: center;
+    font-size: x-large;
+}
+
+#input {
+    height: 50%;
+    text-align: center;
+    border-top: white dotted;
+    border-bottom: white dotted;
+    margin: 5px 0 5px 0;
+    font-size: x-small;
+}
+
+#but {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+button {
+    background-color: #1c1814;
+    width: 40%;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: small;
+    padding: 10px;
+}
+
+.in {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inTime {
+    font-size: large;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+}
+
+span>button {
+    height: auto;
+    padding: 0;
+}
+
+#timer {
+    width: 90%;
+    height: 80%;
+    background-color: aliceblue;
+    margin: 10% 5% 10% 5%;
+    color: grey;
+    font-weight: 1000;
+    font-size: xx-large;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#sesT,
+#mb {
+    color: #00a0b0
+}
+
+#bT,
+#mr {
+    color: #f2714a;
+}
+
+.num {
+    width: 20%;
+    text-align: center;
+}

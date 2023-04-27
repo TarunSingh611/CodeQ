@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>StopWatch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stop.css">
+</head>
+
+
+<BODY class="bg-dark">
+
+    <Div class="container bg-black">
+        <Div class="row">
+            <Div class="col-12 bg-black" id="time">
+                <Div class="row h-100 row-time">
+                    <Div class="col-2 time bg-black" id="hr"></Div>
+                    <Div class="col-1 colon">:</Div>
+                    <Div class="col-2 time bg-black" id="min"></Div>
+                    <Div class="col-1 colon">:</Div>
+                    <Div class="col-2 time bg-black" id="sec"></Div>
+                    <Div class="col-1 colon">:</Div>
+                    <Div class="col-2 time bg-black" id="ms"></Div>
+                </Div>
+            </Div>
+            <Div class="col-12 bg-black " id="but">
+
+                <div class="circle bg-secondary gBut" id="lap" value="0">
+                    <span>LAP</span>
+                </div>
+                <div class="circle bg-success rBut" id="start" value="0">
+                    <span>START</span>
+                </div>
+
+
+            </Div>
+            <Div class="col-12bg-black" id="record"></Div>
+
+        </Div>
+    </Div>
+
+
+
+</BODY>
+
+<script src="stop.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</html>

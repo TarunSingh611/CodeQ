@@ -1,0 +1,202 @@
+.con {
+    height: 100vh;
+}
+
+.head {
+    height: 15vh;
+    font-size: 5vh;
+    font-weight: 640;
+    padding: 20px;
+    background: #008080;
+    color: aliceblue;
+}
+
+.rgt-con {
+    padding: 10%;
+    border-left: 2px #dbdbdb solid;
+}
+
+.rgt-hid {
+    display: none
+}
+
+.rgt-con-pd {
+    padding: 2% 5% 2% 5%;
+    border-left: 2px #dbdbdb solid;
+}
+
+.lft-con {
+    min-height: 90vh;
+    background: #f5f5f5;
+}
+
+#searchBox {
+    min-width: 30%;
+    height: 35px;
+    margin: 2% 2% 2% 3%;
+    padding: 1% 2% 1% 2%;
+    min-width: 60px;
+}
+
+#searchPlace {
+    display: flex;
+    background-color: white;
+    height: 105px;
+    padding: 25px;
+}
+
+#newBut {
+    height: auto;
+    font-size: small;
+    height: 30px;
+}
+
+.lft-head {
+    display: flex;
+    height: 15vh;
+    border-bottom: #dbdbdb 1.5px solid;
+}
+
+.wel {
+    display: flex;
+    flex-direction: column;
+}
+
+.welTxt {
+    font-size: xx-large;
+    font-weight: 700;
+    width: 100%;
+}
+
+.welDes {
+    font-size: large;
+    width: 100%;
+}
+
+.welQ {
+    width: 100%;
+    padding: 1% 2% 1% 2%;
+}
+
+.welSub {
+    margin: 2% 0 2% 0;
+    padding: 1% 2% 1% 2%;
+    width: 30%;
+    min-width: 60px;
+}
+
+button {
+    height: auto;
+    background: #007bff;
+    border-radius: 3px;
+    border: none;
+    color: #f5f5f5;
+    min-height: 35px;
+    font-size: 0.8rem;
+    min-width: 5rem;
+    margin: 2% 2% 2% 2%;
+}
+
+.setS {
+    font-size: xx-large;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.qBox {
+    border-bottom: #dbdbdb 1px solid;
+    left: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.setQ {
+    font-size: large;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.setT {
+    font-size: xx-small;
+    color: gray;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.resCon {
+    background-color: #f5f5f5;
+    border-bottom: #dbdbdb 1px solid;
+}
+
+.dispRes {
+    background-color: #f5f5f5;
+    border-bottom: #dbdbdb 1px solid;
+    max-height: 230px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.rbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: #dbdbdb 1px solid;
+}
+
+.greyHead {
+    color: grey;
+    font-size: x-large;
+    font-weight: 600;
+    width: 100%;
+}
+
+.resSub {
+    font-size: large;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.resQ {
+    font-size: small;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.nf {
+    font-size: xx-large;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 3% 5% 0% 10%;
+}
+
+.but-rt {
+    float: right;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    width: 90%
+}
+
+.notfav {
+    background: gray;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fav {
+    background: #007bff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

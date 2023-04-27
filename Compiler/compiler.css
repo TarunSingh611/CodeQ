@@ -1,0 +1,48 @@
+.container-fluid {
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+}
+
+.row-con {
+    width: 60%;
+    display: inline-flex;
+}
+
+.lang {
+    text-align: right;
+}
+
+.space {
+    min-height: 3em;
+}
+
+.console {
+    color: white;
+    background: black;
+    width: 100%;
+}
+
+button {
+    background-color: #ffc107;
+    margin: 2px;
+    border: #ffc107;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.textwrapper {
+    border: 1px solid #999999;
+    margin: 5px 0;
+    padding: 3px;
+}

@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    width: 40%;
+    padding: 10% 5% 50% 5%;
+}
+
+#record {
+    height: 50vh;
+}
+
+.row-time {
+    padding: 5%;
+    color: goldenrod;
+    justify-content: center;
+}
+
+.time {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 0 0 0 0;
+}
+
+#but {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.circle {
+    width: 10vh;
+    border-radius: 50%;
+    color: white;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+}
+
+.circle span {
+    position: relative;
+    top: 30%;
+    transform: translate(-100%, -100%);
+    font-size: 80%;
+}
+
+.colon {
+    font-size: xx-large;
+}
+
+.lapCon {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 10px 0 10px 0;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+
+#record {
+    padding-top: 10%;
+    overflow: auto;
+}
+
+.lapTime {
+    text-align: right;
+}

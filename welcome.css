@@ -1,0 +1,59 @@
+/* Welcome page CSS */
+
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #AAAAAA;
+}
+
+.list-group ol {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-group ol span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #EFEFEF;
+    color: #333333;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #CCCCCC;
+}
+
+.list-group-item:active {
+    background-color: #999999;
+}
+
+@media (max-width: 767px) {
+    .list-group ol {
+        flex-direction: column;
+    }
+}
